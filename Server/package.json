@@ -1,0 +1,30 @@
+{
+  "name": "rest_api_3004",
+  "version": "1.0.0",
+  "description": "api rest nod type",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon  --exec ts-node src/index.ts"
+  },
+  "author": "norma reyes",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-validator": "^7.2.1",
+    "path": "^0.12.7",
+    "pg": "^8.16.0",
+    "pg-hstore": "^2.3.4",
+    "rest_api_3004": "file:",
+    "sequelize": "^6.37.7",
+    "sequelize-typescript": "^2.1.6"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.1",
+    "@types/node": "^22.15.30",
+    "@types/pg": "^8.15.4",
+    "nodemon": "^3.1.10",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
